@@ -1,6 +1,9 @@
 <template>
   <div class="container  px-4 mt-8 mb-8">
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14">
+    <div class="w-full flex justify-center">
+      <p class="text-2xl xs:text-5xl sm:text-5xl md:text-5xl lg:text-5xl xl:text-5xl text-black p-12 font-bold"> Global Summit  2025</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 mt-8">
       <ComponenteInvitados
         v-for="(invitado, index) in invitados"
         :key="index"
