@@ -1,0 +1,42 @@
+{
+  "name": "gdmty-transparencia-proactiva",
+  "version": "0.0.1",
+  "description": "Transparencia proactiva",
+  "productName": "TRANSPARENCIA_PROACTIVA",
+  "author": "martinDTV <martin.delatorre@monterrey.gob.mx>",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev",
+    "build": "quasar build",
+    "postinstall": "quasar prepare"
+  },
+  "dependencies": {
+    "@mdi/js": "^7.4.47",
+    "@mdi/react": "^1.6.1",
+    "@quasar/extras": "^1.16.4",
+    "axios": "^1.2.1",
+    "ol-layerswitcher": "^4.1.2",
+    "oltb": "^2.2.0",
+    "pinia": "^2.3.0",
+    "quasar": "^2.16.0",
+    "vue": "^3.4.18",
+    "vue-i18n": "^9.2.2",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@intlify/unplugin-vue-i18n": "^2.0.0",
+    "@quasar/app-vite": "^2.0.0",
+    "@types/node": "^20.5.9",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^3.4.17",
+    "typescript": "~5.5.3"
+  },
+  "engines": {
+    "node": "^28 || ^26 || ^24 || ^22 || ^20 || ^18",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}
