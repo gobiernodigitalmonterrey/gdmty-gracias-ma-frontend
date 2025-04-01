@@ -1,25 +1,11 @@
 <template>
   <q-footer class="bg-grey-2">
-    <div style="padding-right: 40px; padding-left: 30px;">
-      <div>
-        <a href="https://www.monterrey.gob.mx/dependencias/siga" target="_blank">
-          <q-img class="q-mt-lg q-ml-lg"
-              src="https://mty-imagenes-respaldo.web.app/images/transparencia/logotipo_SIGA_azul.png"
-              style="width: 250px; height: 100%;"
-            />
-        </a>
-        <div class="q-mt-md q-ml-lg font-family text-black"
-             style="border-top: 1px solid #cdcdcd; padding-top: 8px; font-size: 16px">
-          Melchor Ocampo 130, Centro, 64000 Monterrey, N.L.
-        </div>
-      </div>
-    </div>
     <div :style="$q.screen.xs ? {display: 'flex', justifyContent: 'center', marginTop: '8px', paddingRight: '13%', paddingLeft: '15%'} :
                  $q.screen.sm ? {display: 'flex', justifyContent: 'end', paddingRight: '5%'} :
                  $q.screen.md ? {display: 'flex', justifyContent: 'end', paddingRight: '5%'} :
                  $q.screen.lg ? {display: 'flex', justifyContent: 'end', paddingRight: '5%'} :
                  $q.screen.xl ? {display: 'flex', justifyContent: 'end', paddingRight: '5%'} : null">
-              <div class="q-mr-lg">
+              <div class="q-mr-lg  q-mt-md">
                 <div style="font-weight: bold; color: #233256; font-size: 16px">Menú</div>
                 <div class="font-family">
                   <div>
@@ -40,7 +26,7 @@
                 </div>
               </div>
 
-              <div>
+              <div class=" q-mt-md">
                 <div style="font-weight: bold; color: #233256; font-size: 16px">Herramientas</div>
                 <div class="font-family">
                   <div>

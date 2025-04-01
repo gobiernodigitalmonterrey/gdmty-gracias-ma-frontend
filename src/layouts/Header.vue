@@ -2,19 +2,10 @@
   <q-layout>
     <q-header class="header-container">
       <q-toolbar class="full-width flex row" :style="$q.screen.lt.md ? {justifyContent: 'left'} : {}">
-        <div :style="$q.screen.lg ? {marginLeft:'10px'} :
+        <div class="q-ma-sm" :style="$q.screen.lg ? {marginLeft:'10px'} :
                      $q.screen.xl ? {marginLeft:'10px'} : null">
           <a href="https://www.monterrey.gob.mx/" target="_blank" rel="noopener">
             <q-img class="logos" src="https://mty-imagenes-respaldo.web.app/images/transparencia/escudo_blanco.png" alt="logo"/>
-          </a>
-        </div>
-        <div class="logo-container" :style=" $q.screen.xs ? {marginLeft:'4px', marginRight:'3px'} :
-                                             $q.screen.sm ? {marginLeft:'10px', marginRight:'3px'} :
-                                             $q.screen.md ? {marginLeft:'15px', marginRight:'3px'} :
-                                             $q.screen.lg ? {marginLeft:'25px', marginRight:'3px'} :
-                                             $q.screen.xl ? {marginLeft:'25px', marginRight:'3px'} : null">
-          <a href="https://www.monterrey.gob.mx/dependencias/siga" target="_blank" rel="noopener">
-            <q-img class="logos" src="https://mty-imagenes-respaldo.web.app/images/transparencia/logo_SIGA_blanco.png" alt="logo"/>
           </a>
         </div>
       </q-toolbar>
