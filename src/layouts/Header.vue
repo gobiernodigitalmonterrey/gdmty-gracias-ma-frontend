@@ -30,7 +30,7 @@
 
 <script setup lang="ts">
 import { useQuasar } from 'quasar';
-import Footer from "components/Footer.vue";
+import Footer from "components/ComponenteFooter.vue";
 import NavMenu from "components/NavMenu.vue";
 
 const $q = useQuasar();

@@ -1,4 +1,4 @@
-# TRANSPARENCIA_PROACTIVA (gdmty-transparencia-proactiva)
+# GDMTY GLOBAL SUMMIT 2025 ASISTENCIA
 
 Transparencia proactiva
 

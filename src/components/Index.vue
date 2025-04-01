@@ -1,49 +1,64 @@
 <template>
-  <div class="flex justify-center items-center">
-    <p>ggg</p>
+  <div class="container  px-4 mt-8 mb-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14">
+      <ComponenteInvitados
+        v-for="(invitado, index) in invitados"
+        :key="index"
+        :invitado="invitado"
+
+      />
+    </div>
   </div>
 </template>
+
 <script setup lang="ts">
-import { useQuasar } from 'quasar';
-import {ref, onMounted} from "vue";
-import { apiMide } from "boot/axios";
+import ComponenteInvitados from "components/ComponenteInvitados.vue";
 
-const $q = useQuasar();
-
-interface DataMide {
-  title: string;
-  thumbnail_url: string;
-  embed_url: string;
-  abstract:string;
-}
-
-const cards = ref<DataMide[]>([]);
-
-onMounted(async () => {
-  const response = await apiMide.get('/geoapps')
-  cards.value = response.data?.geoapps
-  console.log(cards.value, 'value')
-})
-
+const invitados = [
+  {
+    nombre: "Ximena Tamariz Garcia",
+    dia: '10 de abril'
+  },
+  {
+    nombre: "Juan Ignacio Bringas Martinez",
+    dia: '9-10 de abril'
+  },
+  {
+    nombre: "Juan Manuel Soto Garcia",
+    dia: '9-10 de abril'
+  },
+  {
+    nombre: "David Rodriguez Castillon",
+    dia: '9-10 de abril'
+  },
+  {
+    nombre: "Oscar Alejandro Flores Treviño",
+    dia: '9-10 de abril'
+  },
+  {
+    nombre: "Federico Eugenio Vargas Rodriguez",
+    dia: '10 de abril'
+  },
+  {
+    nombre: "Fernando Margain Sada",
+    dia: '10 de abril'
+  },
+  {
+    nombre: "Arturo Cantu Gonzalez",
+    dia: '10 de abril'
+  },
+  {
+    nombre: "Juan Bringas",
+    dia: '11 de abril'
+  },
+  {
+    nombre: "Victor Melgarejo",
+    dia: '11 de abril'
+  },
+]
 </script>
 
-<style >
-.container{
-  z-index: 3;
-  position: relative;
-  height: auto;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  max-width: 1200px;
-  width: 100%;
-}
-.fuente{
-  font-family: 'Gabarito', sans-serif;
-  font-weight: bold;
-  border-bottom: 1px solid white;
-  display: inline-block;
-}
-
+<style scoped>
 /* Pantalla completa */
 @media (max-width: 1950px) {
   .logo img {
