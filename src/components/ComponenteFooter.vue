@@ -1,49 +1,5 @@
 <template>
   <q-footer class="bg-grey-2">
-    <div :style="$q.screen.xs ? {display: 'flex', justifyContent: 'center', marginTop: '8px', paddingRight: '13%', paddingLeft: '15%'} :
-                 $q.screen.sm ? {display: 'flex', justifyContent: 'end', paddingRight: '5%'} :
-                 $q.screen.md ? {display: 'flex', justifyContent: 'end', paddingRight: '5%'} :
-                 $q.screen.lg ? {display: 'flex', justifyContent: 'end', paddingRight: '5%'} :
-                 $q.screen.xl ? {display: 'flex', justifyContent: 'end', paddingRight: '5%'} : null">
-              <div class="q-mr-lg  q-mt-md">
-                <div style="font-weight: bold; color: #233256; font-size: 16px">Menú</div>
-                <div class="font-family">
-                  <div>
-                    <a href="https://gobiernodigital.monterrey.gob.mx/" class="link" target="_blank" rel="noopener">Gobierno Digital</a>
-                  </div>
-                  <div>
-                    <a href="#" class="link" target="_blank" rel="noopener" >Participación Ciudadana</a>
-                  </div>
-                  <div>
-                    <a href="https://transparencia-dev.web.app/#/transparencia" class="link" target="_blank" rel="noopener">Transparencia Proactiva</a>
-                  </div>
-                  <div>
-                    <a href="https://mejoraregulatoria.monterrey.gob.mx/" class="link" target="_blank" rel="noopener">Mejora Regulatoria</a>
-                  </div>
-                  <div>
-                    <a href="https://www.monterrey.gob.mx/noticias/1" class="link" target="_blank" rel="noopener">Sala de Prensa</a>
-                  </div>
-                </div>
-              </div>
-
-              <div class=" q-mt-md">
-                <div style="font-weight: bold; color: #233256; font-size: 16px">Herramientas</div>
-                <div class="font-family">
-                  <div>
-                    <a href="https://modulodigital.monterrey.gob.mx/" class="link" target="_blank" rel="noopener">Módulo Digital</a>
-                  </div>
-                  <div>
-                    <a href="https://id.monterrey.gob.mx/" class="link" target="_blank" rel="noopener" >iD Digital</a>
-                  </div>
-                  <div>
-                    <a href="https://mide.monterrey.gob.mx/catalogue/#/dataset/262/edit/data" class="link" target="_blank" rel="noopener">Puntos Wifi</a>
-                  </div>
-                  <div>
-                    <a href="https://mide.monterrey.gob.mx/#/" class="link" target="_blank" rel="noopener">Mide +</a>
-                  </div>
-                </div>
-              </div>
-     </div>
      <div class="text-center q-mt-md font-family" style="color: #233256;">
         <p style="font-size: 16px"> &copy; {{ year }}
           <a href="https://www.monterrey.gob.mx/"
