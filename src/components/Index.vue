@@ -71,9 +71,9 @@ const invitados = [
     dia: '9-10 de abril'
   },
   {
-    nombre: "Federico Eugenio Vargas Rodriguez",
-    puesto: "Secretario de Innovación y Gobierno Abierto",
-    correo: "federico.vargas@monterrey.gob.mx",
+    nombre: "Luis Lauro Torres Perez",
+    puesto: "Director de Planeación, Enlace y Proyectos Estratégicos",
+    correo: "luislauro@monterrey.gob.mx",
     evento: "Ceremonia de Premiación",
     dia: '10 de abril'
   },
