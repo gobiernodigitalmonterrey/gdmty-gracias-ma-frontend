@@ -74,7 +74,7 @@ q-toolbar {
 }
 
 .header-container {
-  background: #233256;
+  background: #ff80ab;
   display: flex;
   justify-content: center;
   align-items: center;

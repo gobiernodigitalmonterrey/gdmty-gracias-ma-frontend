@@ -1,5 +1,5 @@
 <template>
-  <q-page class="row justify-evenly">
+  <q-page>
     <Index
       title=""
       active
